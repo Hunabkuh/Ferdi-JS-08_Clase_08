@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarragona Trip</title>
+</head>
+<body>
+
+    <div id="div-body">
+
+        <header>
+            <h1>Tarragoneando... Activa el GPS primero.</h1>
+        </header>
+
+        <section>
+
+            <div class="div-botones">
+                <input type="button" value="100 km" onclick="gps100km()">
+                <input type="button" value="50 km" onclick="gps50km()">
+                <input type="button" value="15 km" onclick="gps15km()">
+                <input type="button" value="Llegada" onclick="gps0km()">
+            </div>
+
+        </section>
+
+
+        <section class="div-paradas">
+
+            <div id="id-100km">
+                <div class="div-100km">
+                    <p><b>Comienza tu recorrido:</b><br>En este viaje te mostraremos diferentes puntos de interés de la geografía nacional</p>
+                </div>
+            </div>
+
+            <div id="id-50km" class="div-50km">
+                <div class="div-50km">
+                    <p><b>Te estás aproximando a: Playa de Cunit.</b><br>La playa de Cunit es la playa del municipio homónimo, con una longitud de 2450 m, se encuentra dividida en 8 calas formadas a partir de la construcción de 7 espigones paralelos a la antigua línea de costa así como 4 más en forma de isla circular en las calas más próximas a Segur de Calafell.</p>
+                </div>
+            </div>
+
+            <div id="id-15km" class="div-15km">
+                <div class="div-15km">
+                    <p><b>Te estás aproximando a: Ermita de San Antonio de Padua.</b><br>La ermita de San Antonio de Padua es un edificio religioso de la población de Albiñana perteneciente a la comarca catalana de la Bajo Panadés en la provincia de Tarragona. Está situada en lo alto de una colina, cerca de un kilómetro de la población dentro la Sierra del Quadrell. Es una ermita de arquitectura popular incluida en el Inventario del Patrimonio Arquitectónico de Cataluña y protegida como Bien Cultural de Interés Local.</p>
+                </div>
+            </div>
+
+            <div id="id-0km" class="div-0km">
+                <div class="div-0km">
+                    <p><b>Ya casi llegas a tu destino: Tarragona.</b><br>Tarragona es una ciudad y municipio español, capital de la provincia de Tarragona y de la comarca del Tarragonés, situada en el sur de la comunidad autónoma de Cataluña. Durante la época del Imperio romano fue una de las ciudades más destacadas de la península ibérica, como capital, sucesivamente, de las provincias romanas de Hispania Citerior e Hispania Tarraconensis.</p><br><hr>
+                    <input id="boton-cerrar" type="button" value="Cerrar" onclick="botonCerrar()">
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    <div id="div-llegada">
+        <h2>Felicidades, has llegado a tu destino: Tarragona.<br>Disfruta del paseo...</h2>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-botones {
+    margin: 20px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:hover {
+    background-color: aquamarine;
+}
+
+#id-100km {
+    visibility: hidden;
+}
+
+.div-100km {
+    background-image: url(/JavaScript/08_Clase_08/Ejercicio-1/Img/0km.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#id-50km {
+    visibility: hidden;
+}
+
+.div-50km {
+    background-image: url(/JavaScript/08_Clase_08/Ejercicio-1/Img/50km.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#id-15km {
+    visibility: hidden;
+}
+
+.div-15km {
+    background-image: url(/JavaScript/08_Clase_08/Ejercicio-1/Img/15km.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+#id-0km {
+    visibility: hidden;
+}
+
+.div-0km {
+    display: flex;
+    background-image: url(/JavaScript/08_Clase_08/Ejercicio-1/Img/100km.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+#div-llegada {
+    display: none;
+    color: rgb(36, 132, 243);
+    font-size: xx-large;
+    text-shadow: 5px 5px 5px rgb(234, 249, 248);
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
